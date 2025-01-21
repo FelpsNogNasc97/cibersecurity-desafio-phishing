@@ -1,0 +1,52 @@
+Configuração de phishing no Kali Linux com o SET
+Acessar o Kali Linux como root:
+
+bash
+Copiar
+Editar
+sudo su
+Iniciar o SET (Social-Engineer Toolkit):
+
+bash
+Copiar
+Editar
+setoolkit
+Selecionar o tipo de ataque: No menu principal do SET, escolha:
+
+Copiar
+Editar
+1) Social-Engineering Attacks
+Selecionar o vetor de ataque: Escolha a opção:
+
+mathematica
+Copiar
+Editar
+2) Website Attack Vectors
+Selecionar o método de ataque: Escolha:
+
+mathematica
+Copiar
+Editar
+3) Credential Harvester Attack Method
+Escolher o método de clonagem de site:
+
+Copiar
+Editar
+2) Site Cloner
+Inserir o endereço IP da máquina atacante: Obtenha o IP com o comando:
+
+bash
+Copiar
+Editar
+ifconfig
+Insira o endereço IP mostrado, por exemplo: 192.168.1.100.
+
+Inserir o URL do site a ser clonado: Por exemplo:
+
+arduino
+Copiar
+Editar
+http://www.facebook.com
+Finalização: O SET irá clonar o site e configurar um servidor local para capturar as credenciais inseridas.
+
+Resultados: As informações capturadas, como nomes de usuário e senhas, serão exibidas na sessão do terminal onde o SET está sendo executado.
